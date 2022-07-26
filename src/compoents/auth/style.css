@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.line{
+  border: 3px solid #1A3B58;
+  background-color: #1A3B58;
+  border-radius: 5px;
+  width: 20%;
+  margin-left: 10px;
+}
+
+.divider{
+  border: 3px solid rgba(64, 145, 223, 0.12);
+  background-color: rgba(64, 145, 223,0.12);
+}
+
+
+.ActiveHeading {
+  color: #1a3b58;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 101.1%;
+  margin: 10px;
+}
+
+.NonActiveHeading {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 101.1%;
+  color: rgba(26, 59, 88, 0.33);
+  margin: 10px;
+}
+
+.continuedHeading{
+    font-family: 'Poppins';
+/* font-style: normal; */
+font-weight: 500;
+font-size: 21px;
+line-height: 101.1%;
+color: #1A3B58;
+}
+
+.caption{
+    
+font-family: 'Poppins';
+/* font-style: normal; */
+font-weight: 300;
+font-size: 10px;
+/* line-height: 15px; */
+color: #999999;
+}
+
+.inputs{
+    border: 1px solid #CBDBEA;
+    border-radius: 8px;
+    box-sizing: border-box;
+    height: 45px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 103.38%;
+    /* or 14px */
+    color: #B7C0C9;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn{
+    margin-top: 10px;
+    border: none;
+    height: 45px;
+    background: #329C89;
+    border-radius: 8px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 103.38%;
+    /* identical to box height, or 17px */
+
+    letter-spacing: 0.01em;
+
+    color: #FFFFFF;
+}
